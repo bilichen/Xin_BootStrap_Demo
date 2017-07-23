@@ -2,22 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <title>Xin_BootStrap_Demo</title>
 </head>
 <body>
-
     <div class="container text-justify">
         <h1 class="text-center">我是一个标题１</h1>
-        <p class="text-danger">Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during development or debugging; the compressed file saves bandwidth and improves performance in production. You can also download a sourcemap file for use when debugging with a compressed file. The map file is not required for users to run jQuery, it just improves the developer's debugger experience. As of jQuery 1.11.0/2.1.0 the //# sourceMappingURL comment is not included in the compressed file.</p>
+        <p class="text-danger">Compressed and uncompressed copies of jQuery files are available. The uncompressed file
+            is best used during development or debugging; the compressed file saves bandwidth and improves performance
+            in production. You can also download a sourcemap file for use when debugging with a compressed file. The map
+            file is not required for users to run jQuery, it just improves the developer's debugger experience. As of
+            jQuery 1.11.0/2.1.0 the //# sourceMappingURL comment is not included in the compressed file.</p>
     </div>
     <br/>
     <div class="container-fluid text-justify">
         <h1>我是一个标题１</h1>
-        <p>Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during development or debugging; the compressed file saves bandwidth and improves performance in production. You can also download a sourcemap file for use when debugging with a compressed file. The map file is not required for users to run jQuery, it just improves the developer's debugger experience. As of jQuery 1.11.0/2.1.0 the //# sourceMappingURL comment is not included in the compressed file.</p>
+        <p>Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during
+            development or debugging; the compressed file saves bandwidth and improves performance in production. You
+            can also download a sourcemap file for use when debugging with a compressed file. The map file is not
+            required for users to run jQuery, it just improves the developer's debugger experience. As of jQuery
+            1.11.0/2.1.0 the //# sourceMappingURL comment is not included in the compressed file.</p>
     </div>
     <br/>
     <div class="container text-justify">
@@ -29,6 +36,137 @@
             </ul>
         </div>
     </div>
+    <div class="table-responsive">
+        <table class="table table-hover table-striped table-condensed">
+            <tr>
+                <td>11111111111</td>
+                <td>22222222222</td>
+                <td>33333333333</td>
+                <td>44444444444</td>
+                <td>11111111111</td>
+                <td>22222222222</td>
+                <td>33333333333</td>
+                <td>44444444444</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
 
+    <div class="container">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="username" class="sr-only">用户名：</label>
+                <input class="form-control" type="text" id="username" placeholder="请输入用户名">
+            </div>
+            <br/><br/>
+            <div class="form-group">
+                <label for="pwd">密码：</label>
+                <input class="form-control" type="password" id="pwd" placeholder="请输入密码">
+            </div>
+            <br/><br/>
+            <div class="form-group">
+                <input type="radio" name="sex"  class="form-control" >
+                <label >男</label>
+                <input type="radio"  name="sex"  class="form-control" >
+                <label>女</label>
+            </div>
+            <br/><br/>
+            <div class="form-group">
+                <input type="checkbox" name="like"  class="form-control" >
+                <label >打球</label>
+                <input type="checkbox"  name="like"  class="form-control" >
+                <label>上网</label>
+                <input type="checkbox"  name="like"  class="form-control" >
+                <label>游戏</label>
+                <input type="checkbox"  name="like"  class="form-control" >
+                <label>看书</label>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="rol">
+            <div class="col-md-4 col-xs-4" style="height: 400px;background-color: #5bc0de"></div>
+            <div class="col-md-8  col-xs-8" style="height: 400px;background-color: red">
+                <div class="row">
+                    <img class="col-md-4 col-xs-4 col-md-offset-4" src="images/logo.png">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-4" style="height: 200px;background-color: gray"></div>
+                    <div class="col-md-4 col-xs-4 col-md-offset-4 col-xs-offset-4" style="height: 200px;background-color: orange">
+                </div>
+            </div>
+         </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+         <h1 class="page-header">用户注册表单</h1>
+
+        <div class="row">
+            <form class="form-inline col-md-12">
+                <div class="form-group row">
+                    <label class="col-md-2">用户名：</label>
+                   <div class="col-md-10">
+                      <input type="text" class="form-control" name="username" placeholder="请输入用户名" >
+                   </div>
+                </div>
+                <br/>   <br/>
+                <div class="form-group">
+                    <label >密&nbsp&nbsp&nbsp&nbsp码：</label>
+                    <input type="password" class="form-control" name="pwd" placeholder="请输入密码" >
+                </div>
+                <br/>   <br/>
+                <div class="form-group">
+                    <label >上传头像：</label> <input type="file"></input>
+                </div>
+                <br/>   <br/>
+                <div class="form-group">
+                    <label>兴趣爱好：</label>
+                    <input type="checkbox" class="form-control" name="like"> 美术
+                    <input type="checkbox" class="form-control" name="like"> 电脑
+                    <input type="checkbox" class="form-control" name="like"> 画画
+                    <input type="checkbox" class="form-control" name="like"> 音乐
+                </div>
+                <br/>
+                <div class="form-group">
+                    <label>文化程度：</label>
+                    <input type="radio" class="form-control" name="radio"> 初中
+                    <input type="radio" class="form-control" name="radio"> 高中
+                    <input type="radio" class="form-control" name="radio"> 大专
+                    <input type="radio" class="form-control" name="radio"> 本科
+                </div>
+                <br/>
+                <div class="form-group">
+                    <label >个人简介：</label>
+                    <textarea class="form-control" ></textarea>
+                </div>
+                <br/>
+                <button class="btn btn-success">提交</button>
+
+            </form>
+        </div>
+
+    </div>
 </body>
 </html>
