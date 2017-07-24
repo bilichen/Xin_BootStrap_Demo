@@ -9,7 +9,48 @@
     <title>Xin_BootStrap_Demo</title>
 </head>
 <body>
-    <div class="container text-justify">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse"
+                    data-target=".bs-js-navbar-scrollspy">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">BootStrap</a>
+        </div>
+        <div class="collapse navbar-collapse bs-js-navbar-scrollspy">
+            <ul class="nav navbar-nav ">
+                <li class="active"><a href="#">起步</a></li>
+                <li><a href="#">Css全局样式</a></li>
+                <li><a href="#">组件</a></li>
+                <li><a href="#a1">插件</a></li>
+                <li><a href="#">定制</a></li>
+                <li><a href="#">网站实例</a></li>
+
+                <form class="navbar-form navbar-left">
+                    <input type="text" placeholder="Serach" class="form-control">
+                    <button class="btn btn-default">Serach</button>
+                </form>
+            </ul>
+        </div>
+
+        <div class="navbar-right dropdown">
+            <button class="btn btn-primary data-toggle navbar-btn" data-toggle="dropdown">中文版 <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">英文版</a></li>
+                <li><a href="#">日文版</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container text-justify" style="margin-top: 60px">
         <h1 class="text-center">我是一个标题１</h1>
         <p class="text-danger">Compressed and uncompressed copies of jQuery files are available. The uncompressed file
             is best used during development or debugging; the compressed file saves bandwidth and improves performance
@@ -71,7 +112,7 @@
         </table>
     </div>
 
-    <div class="container">
+    <div class="container" id="a1">
         <form class="form-inline">
             <div class="form-group">
                 <label for="username" class="sr-only">用户名：</label>
@@ -238,7 +279,28 @@
                 <li><a href="#">Apache</a></li>
             </ul>
         </div>
+    </div>
 
+    <div class="container">
+        <h2 class="page-header">输入框组应用</h2>
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" placeholder="输入框的应用">
+                <span class="input-group-addon">.0-0</span>
+            </div>
+    </div>
+
+
+
+    <div class="container">
+        <h2 class="page-header">标签页（选项卡）应用</h2>
+        <div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">TV</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
